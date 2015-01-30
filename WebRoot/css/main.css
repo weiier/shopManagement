@@ -1,0 +1,256 @@
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+div#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+div#background>img{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    -webkit-filter: blur(4px)
+}
+#row1{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+#row2{
+	background: #2d2d2d;
+	background: rgba(45,45,45,.7);
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+
+}
+#row2 div{
+    height: 360px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 10px 10px;
+}
+#row2 img{
+    width: 680px;
+    height: 358px;
+}
+#row2 p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+footer{
+    margin: auto;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.mycarousel{
+    margin: auto;
+    padding: 0;   
+}
+#logo{
+    width: 100px;
+}
+.myhead{
+	margin-top: 5px;
+    height: 68px;
+    padding-left: 40px;
+}
+.myhead h1{
+    margin: 0;
+}
+.subhead h1{
+    color: red;
+    font-weight:900;
+}
+#row1 #login{
+    float: right;
+    padding-right: 0;
+    margin-right: 0;
+	margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+#row1 #login a{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    font-family:sans-serif;
+  
+}
+.carousel-caption{
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+.carousel-caption h3{
+    padding: 0;
+    margin: 0;
+}
+.carousel-caption h3 small{
+    color: white;
+    font-weight: bold;
+    padding-left: 6px;
+}
+hr{
+    margin: 5px;
+    padding: 0;
+    height: 2px;
+    background: -webkit-linear-gradient(left, white, #0b0b96, white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, white, blue, white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, white, blue, white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, white, blue, white); /* 标准的语法（必须放在最后） */
+}
+#loginForm button{
+    font-weight: bold;
+    font-size: 15px;
+}
+#loginForm~a{
+    color: black;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+/*modal*/
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}
+.modal-content{
+    border: 1px solid #666;
+    width: 700px;
+}
+#myModalLabel img{
+    width: 60px;
+}
+#myModalLabel h4{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#myModalLabel h6{
+    margin-top: 0;
+    font-size: 7.5px;
+    font-weight: bold;
+}
+#myModalLabel .myhead{
+    padding: 0;
+}
+.modal-body .leftPart{
+    width: 340px;
+}
+.modal-body .rightPart{
+    width: 320px;
+}
+/*modal end*/
+
+
+/*identifyCode*/
+.code{
+    background-color: gainsboro;
+    font-family:Arial,宋体;
+    font-style:italic;
+    color:green;
+    border:0;
+    padding:2px 3px;
+    letter-spacing:3px;
+    font-weight:bolder;
+    width: 60px;
+}
+.unchanged {
+    border:0;
+}
+
+.myIdentifyPart #signIn_identify{
+    border: 1px solid #bcbbbb;
+    width: 100px;
+    margin-right: 10px;
+    border-radius:5px;
+}
+/*identifyCode end*/

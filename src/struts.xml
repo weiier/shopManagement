@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="default" extends="struts-default">
+		
+		<action name="login" class="com.Exhibition.action.LoginAction">
+			<result name="success">/us_redirect.jsp</result>
+			<result name="fail">/login.jsp</result>
+		</action>
+		
+		<action name="loginOut" class="com.Exhibition.action.LoginOutAction">
+			<result name="loginout">/login.jsp</result>
+		</action>
+		
+		<action name="index" class="com.Exhibition.action.IndexAction">
+			<result name="admin">/ad_redirect.jsp</result>
+			<result name="proxy">/pr_redirect.jsp</result>
+			<result name="visitor">/vi_home.jsp</result>
+			<result name="fail">/index.jsp</result>
+		</action>
+		
+		<action name="indexOut" class="com.Exhibition.action.IndexOutAction">
+			<result name="loginout">/index.jsp</result>
+		</action>
+	</package>
+
+</struts>
+	
